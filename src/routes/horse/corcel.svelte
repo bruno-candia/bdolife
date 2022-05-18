@@ -1,7 +1,6 @@
 <script>
   import Button from '../../components/Button/Button.svelte';
   import '../horse/style.scss';
-  import {cavalo} from '../../assets/volta-rapida.png';
 </script> 
 
 <section>
@@ -13,7 +12,7 @@
     </div>
     <div class='content'>
       <div class='horse-content'>
-        <img src={cavalo} alt="Cavalo de raça 8A">
+        <!-- <img src='../../../static/8C.png' alt="Cavalo de raça 8A"> -->
       </div>
       <div>
 
