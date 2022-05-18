@@ -1,14 +1,14 @@
 <script>
   import logoBdolife from '../../assets/logo-bdolife.svg';
   import { MenuIcon } from 'svelte-feather-icons'
-
+  import '../Nav/style.css';
 </script>
 
-<header class='flex text-center text-white font-bold text-xl items-center justify-between'>
-  <button>
-    <MenuIcon/>
+<header class='header'>
+  <button class='menu-button'>
+    <MenuIcon size='32' />
   </button>
-  <div >
+  <div class='logo'>
     <img src={logoBdolife} alt="Logo Bdolife">
   </div>
 </header>

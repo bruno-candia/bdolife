@@ -1,8 +1,9 @@
 <script>
   export let tier;
+  import '../Button/style.css';
 </script>
 
 
-  <button class=' px-4 py-2 mt-2 font-bold rounded text-[#E5D5C0] bg-secondary '>
+  <button class='tier-button'>
     {tier}
   </button>

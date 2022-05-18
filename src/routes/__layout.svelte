@@ -1,5 +1,5 @@
 <script>
-  import "../app.css";
+  import "../app.scss";
   import Nav from "../components/Nav/Nav.svelte";
 </script>
 
@@ -7,7 +7,7 @@
   <title>bdolife.net</title>
 </svelte:head>
 
-<div class='mx-6 my-5'>
+<div class='container'>
   <Nav/>
   <slot/>
 </div>
