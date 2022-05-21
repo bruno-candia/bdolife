@@ -1,6 +1,6 @@
 <script>
   import { MenuIcon } from 'svelte-feather-icons'
-  import '../Nav/style.css';
+  import '../Nav/style.scss';
 </script>
 
 <header class='header'>
@@ -8,6 +8,6 @@
     <MenuIcon size='32' />
   </button>
   <div class='logo'>
-    <img src='images/logo-bdolife.svg' alt="Logo Bdolife">
+    <img src='/images/logo-bdolife.svg' alt="Logo Bdolife">
   </div>
 </header>
