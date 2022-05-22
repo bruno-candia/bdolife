@@ -1,9 +1,5 @@
 @import '../../utils/variables.scss';
 
-.tier{
-  position: relative;
-}
-
 .title {
   display: flex;
   text-align: center;
@@ -23,28 +19,8 @@
 
 .content{
   display: flex;
+  flex-direction: column;
   margin-top: 7.625rem;
   background: $bgSecondary;
   border-radius: 8px 8px 0 0;
-  justify-content: center;
-  padding: 116px 41px;
-
-  // Cicle
-  .horse-content{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    margin-top: -30%;
-    width: 196px;
-    background: $bgTertiary;
-    border: 10px solid $bgPrimary;
-    border-radius: 50%;
-    padding: 2rem;
-
-    img{
-      width: 100%;
-      height: 100%;
-      border-radius: 50%;
-    }
-  }
 }
